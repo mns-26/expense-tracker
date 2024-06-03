@@ -1,8 +1,21 @@
-import 'package:megnath_expense_tracker/screens/auth/login_screen.dart';
+import 'package:megnath_expense_tracker/plugins/firebase_api.dart';
+import 'package:megnath_expense_tracker/plugins/local_notifications.dart';
+import 'package:megnath_expense_tracker/screens/Temp_screen.dart';
 import 'package:megnath_expense_tracker/screens/splash_screen.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+import 'firebase_options.dart';
+import 'plugins/local_shared_preferences.dart';
+import 'screens/common/temp_screen.dart';
+
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await LocalNotification.initialize();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+  await FirebaseApi().initNotifications();
   runApp(const MyApp());
 }
 
@@ -19,6 +32,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: SplashScreen(),
+      // home: TempScreen(),
+      // home: HomeLayout(),
     );
   }
 }

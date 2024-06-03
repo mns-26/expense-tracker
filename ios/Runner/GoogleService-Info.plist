@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyBiBBlpLMzGt6G2w-Pss581EELSSGOSYvg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>275961868303</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.megnathExpenseTracker</string>
+	<key>PROJECT_ID</key>
+	<string>megnath-expense-tracher</string>
+	<key>STORAGE_BUCKET</key>
+	<string>megnath-expense-tracher.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:275961868303:ios:8cb55a5a57932b8493737a</string>
+</dict>
+</plist>

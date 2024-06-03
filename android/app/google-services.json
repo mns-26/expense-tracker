@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "275961868303",
+    "project_id": "megnath-expense-tracher",
+    "storage_bucket": "megnath-expense-tracher.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275961868303:android:ae0c4bb7f2659aa893737a",
+        "android_client_info": {
+          "package_name": "com.example.megnath_expense_tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfzEc7wbd0eh1GChPb6O1JYOa5xOsLv3Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
